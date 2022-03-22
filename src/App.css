@@ -1,0 +1,12 @@
+:root{
+    --primary: #BB86FC;
+}
+
+.container{
+    max-width: 31.25rem;
+    min-height: 18rem;
+    margin: 30px auto;
+    padding: 30px;
+    border: 2px solid var(--primary);
+    border-radius: 10px;
+}
