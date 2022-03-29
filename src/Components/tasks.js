@@ -1,7 +1,12 @@
 import React from "react";
+import Item from "./taskItem";
 
-const Tasks = () =>{
-    return <h1>Tasks</h1>
+const Tasks = ({ tasks }) =>{
+    return (
+        <>
+            {tasks.map((task) => (<Item task = {task}/>))}
+        </>
+    )
 };
 
 export default Tasks;
