@@ -1,5 +1,5 @@
 :root{
-    --primary: #BB86FC;
+    --primary: #d260ff;
 }
 
 .container{
@@ -9,4 +9,5 @@
     padding: 30px;
     border: 2px solid var(--primary);
     border-radius: 10px;
+    color: #fff;
 }
