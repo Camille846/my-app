@@ -23,12 +23,42 @@ const App = () =>{
       id:'4',
       title: 'Tomar chá',
       completed: false,
+    },
+    {
+      id:'5',
+      title: 'Dormir',
+      completed: false,
+    },
+    {
+      id:'6',
+      title: 'Ir no cabeleireiro',
+      completed: false,
+    },
+    {
+      id:'7',
+      title: 'Ir no esteticista',
+      completed: false,
+    },
+    {
+      id:'8',
+      title: 'Ir para a balada',
+      completed: false,
+    },
+    {
+      id:'9',
+      title: 'Chamar o motorista',
+      completed: false,
+    },
+    {
+      id:'10',
+      title: 'Final de semana, ir para a casa de praia',
+      completed: false,
     }
   ]);
   return (
     <>
       <div className='container'>
-        <Tasks />
+        <Tasks  tasks = {tasks} />
       </div>
     </>
   )
