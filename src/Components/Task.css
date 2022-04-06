@@ -9,4 +9,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
+    transition: background .5s;
+}
+
+.task_container:hover{
+    background-color: #d780fa;
+    color: #222;
 }
