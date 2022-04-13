@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.Btn{
+    font-family: 'Poppins', sans-serif;
+    background-color: #444;
+    color: rgb(223, 222, 222);
+    height: 40px;
+    width: 100%;
+    padding: 0 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    font-size: 1em;
+}
+
+.Btn:hover{
+    background-color: #d780fa;
+    color: #222;
+}
