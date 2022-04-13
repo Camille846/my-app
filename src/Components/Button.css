@@ -11,6 +11,7 @@
     outline: none;
     border: none;
     font-size: 1em;
+    transition: background .5s;
 }
 
 .Btn:hover{
