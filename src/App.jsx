@@ -32,12 +32,12 @@ const App = () =>{
     },
     {
       id:'6',
-      title: 'Ir no cabeleireiro',
+      title: 'Ir ao cabeleireiro',
       completed: false,
     },
     {
       id:'7',
-      title: 'Ir no esteticista',
+      title: 'Ir ao esteticista',
       completed: false,
     },
     {
