@@ -1,0 +1,18 @@
+.addTask_container{
+    margin: 15px;
+    width: 100%;
+    display: flex;
+}
+
+.inputTask{
+    height: 2.5rem;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    background-color: #444;
+    color: rgb(223, 222, 222);
+    font-family: 'Poppins', sans-serif;
+    border-radius: 15px;
+    flex: 2;
+    font-size: 1em;
+}
